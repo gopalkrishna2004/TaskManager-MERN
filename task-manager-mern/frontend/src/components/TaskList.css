@@ -1,0 +1,166 @@
+.task-container {
+    width: 100%;
+  }
+  
+  .task-header-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 24px;
+    text-align: center;
+    border-bottom: 3px solid #22c55e;
+    padding-bottom: 10px;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .task-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .task-item.completed {
+    background-color: #dcfce7;
+    border-left: 4px solid #22c55e;
+  }
+  
+  .task-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .task-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #22c55e;
+  }
+  
+  .task-checkbox:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+  
+  .task-content {
+    flex-grow: 1;
+  }
+  
+  .task-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 8px;
+  }
+  
+  .task-description {
+    color: #6b7280;
+    line-height: 1.5;
+  }
+
+  .task-filter {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-dropdown {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  
+  .completed .task-title,
+  .completed .task-description {
+    text-decoration: line-through;
+    color: #22c55e;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .button {
+    flex: 1;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .delete-button {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #dc2626;
+  }
+  
+  .edit-button {
+    background-color: #f59e0b;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #d97706;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .edit-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .save-button {
+    background-color: #22c55e;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #16a34a;
+  }
+  
+  .cancel-button {
+    background-color: #6b7280;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #4b5563;
+  }
