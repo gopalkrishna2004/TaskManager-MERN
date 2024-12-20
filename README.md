@@ -11,7 +11,7 @@ TaskManager-MERN is a full-stack web application for managing tasks, built using
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
