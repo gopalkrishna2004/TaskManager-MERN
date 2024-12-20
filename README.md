@@ -118,7 +118,6 @@ task-manager-mern/
 ├── frontend/
 │   ├── src/
 │   └── public/
-├── README.md
 └── .gitignore
 ```
 
