@@ -33,9 +33,12 @@ TaskManager-MERN is a full-stack web application for managing tasks, built using
   - **pending Task**
   ![Task Filtering](img/img5.jpeg)
 
-- Responsive Design: Accessible on various devices.
+
 - Notifications: Success and error messages for user actions.
 
+  ![Success](img/img6.jpeg)
+  
+- Responsive Design: Accessible on various devices.
 
 
 ## Technologies Used
