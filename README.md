@@ -18,8 +18,6 @@ TaskManager-MERN is a full-stack web application for managing tasks, built using
 - Task Management: Create, read, update, and delete tasks.
 - Responsive Design: Accessible on various devices.
 - Notifications: Success and error messages for user actions.
-- Form Validation: Both frontend and backend validations.
-- State Management: Global state management using Redux.
 - Task Filtering: Filter tasks based on criteria like all, pending, completed.
 
 
