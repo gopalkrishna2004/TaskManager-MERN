@@ -16,9 +16,15 @@ TaskManager-MERN is a full-stack web application for managing tasks, built using
 ## Features
 
 - Task Management: Create, read, update, and delete tasks.
+  ![Task Creating](img/img1.jpeg)
+  ![Task updating](img/img2.jpeg)
+- Task Filtering: Filter tasks based on criteria like all, pending, completed.
+  ![Task Filtering](img/img3.jpeg)
+  ![Task Filtering](img/img4.jpeg)
+  ![Task Filtering](img/img5.jpeg)
 - Responsive Design: Accessible on various devices.
 - Notifications: Success and error messages for user actions.
-- Task Filtering: Filter tasks based on criteria like all, pending, completed.
+
 
 
 ## Technologies Used
